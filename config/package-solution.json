@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "risk-regist-client-side-solution",
+    "id": "28368798-cf50-423e-9ce4-818aa9d622eb",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Risk Regist description"
+      },
+      "longDescription": {
+        "default": "Risk Regist description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "risk-regist Feature",
+        "description": "The feature that activates elements of the risk-regist solution.",
+        "id": "fa873d6a-d575-4116-bfe8-009401c3bc73",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/risk-regist.sppkg"
+  }
+}
